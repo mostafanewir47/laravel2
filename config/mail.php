@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'ams-node1.websitehostserver.net'),
+    'host' => env('MAIL_HOST', 'xxxxx'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'contact@play4gift.com'),
-        'name' => env('MAIL_FROM_NAME', 'Dailyclikr'),
+        'address' => env('MAIL_FROM_ADDRESS', 'address@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'sendername'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('contact@play4gift.com'),
+    'username' => env('username'),
 
-    'password' => env('9985155122'),
+    'password' => env('password'),
 
     /*
     |--------------------------------------------------------------------------
